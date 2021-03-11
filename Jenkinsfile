@@ -7,11 +7,9 @@ pipeline
     {
        steps
        {
-       dir('SpringMVCSecurityXML') 
-       {
             // some block
             sh 'mvn clean install'
-       }
+       
 
         }
     }
