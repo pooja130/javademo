@@ -18,8 +18,8 @@ pipeline
         steps
         {
             // some block
-            sh 'mv target/*.war javademo.war'
-            sh 'sudo cp javademo.war /var/lib/tomcat8/webapps'
+            sh 'mv target/*.war javademopipe.war'
+            sh 'sudo cp javademopipe.war /var/lib/tomcat8/webapps'
       
         }
     }
