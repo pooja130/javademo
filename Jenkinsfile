@@ -17,11 +17,9 @@ pipeline
     {
         steps
         {
-        dir('SpringMVCSecurityXML/target') 
-       {
             // some block
             sh 'sudo cp SpringMVCSecurityXML.war /var/lib/tomcat8/webapps'
-       }
+      
         }
     }
     }
