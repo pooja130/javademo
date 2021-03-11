@@ -18,7 +18,7 @@ pipeline
         steps
         {
             // some block
-            sh 'sudo cp target/*.war /var/lib/tomcat8/webapps'
+            sh 'sudo cp target/example-0.0.1-SNAPSHOT.war /var/lib/tomcat8/webapps'
       
         }
     }
