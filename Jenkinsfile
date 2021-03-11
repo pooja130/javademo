@@ -6,16 +6,13 @@ pipeline
     stage('Build')
     {
        steps
-        {
-       sh 'pwd'
+       {
        dir('SpringMVCSecurityXML') 
        {
             // some block
-            sh 'pwd'
             sh 'mvn clean install'
-            sh 'touch file1'
        }
-       sh 'pwd'
+
         }
     }
     stage('Deploy')
