@@ -18,7 +18,7 @@ pipeline
         steps
         {
             // some block
-            sh 'sudo cp SpringMVCSecurityXML.war /var/lib/tomcat8/webapps'
+            sh 'sudo cp **/*.war /var/lib/tomcat8/webapps'
       
         }
     }
